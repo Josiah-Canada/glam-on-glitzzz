@@ -1,11 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #nav-title {
   margin-right: auto;
   font-size: 1.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header li {
@@ -21,4 +23,66 @@ header {
   padding: 20px 50px;
   box-shadow: 0 1px 8px #ddd;
   background-color: #e042f5;
+  position: fixed;
+  width: 100%;
+}
+
+.jewl {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 400px;
+  
+}
+
+.paragraph {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  
+}
+
+.paragraph p {
+  line-height: 40px;
+}
+
+.paragraph h1 {
+  display: inline;
+  width: 20px;
+  margin: 40px;
+}
+
+.next-to {
+  text-indent: 300px;
+  display: inline;
+}
+
+.four-square {
+  width: 500px;
+  height: 500px;
+  margin: 55px;
+  border-radius: 25px;
+}
+
+.graphing {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.founder {
+  margin: 25px;
+  text-align: center;
+}
+
+
+
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  
+ ;
 }
