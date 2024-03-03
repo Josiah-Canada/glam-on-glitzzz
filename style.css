@@ -4,41 +4,64 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#nav-title {
-  margin-right: auto;
-  font-size: 1.5em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  height: 100%;
 }
 
-header li {
+.menu-btn {
+  color: #424144;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+.navbar {
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 999;
+  background-color: #6e3fb5;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.9);
+}
+
+.navbar .logo h1 {
+  color: #424144;
+  border-bottom: 4px solid #d9b227;
+}
+
+.navbar .menu li {
   list-style: none;
   display: inline-block;
-  padding: 0 20px;
 }
 
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 20px 50px;
-  box-shadow: 0 1px 8px #ddd;
-  background-color: #e042f5;
-  position: fixed;
-  width: 100%;
+.navbar .menu li a {
+  display: block;
+  margin-left: 20px;
+  color: #424144;
+  border-bottom: 4px solid transparent;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.jewl {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 400px;
-  
+.navbar .menu li .active {
+  border-bottom: 4px solid #d9b227;
+}
+
+.navbar .menu li a i {
+  color:#d9b227;
+}
+
+.navbar .menu li a:hover {
+  border-bottom: 4px solid #d9b227;
+
 }
 
 .paragraph {
   font-family: "Times New Roman", Times, serif;
   margin: 20px;
-  
 }
 
 .paragraph p {
@@ -68,7 +91,6 @@ header {
   flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .founder {
@@ -76,13 +98,9 @@ header {
   text-align: center;
 }
 
-
-
 .middle {
   margin-left: auto;
   margin-right: auto;
   width: 200px;
   height: 200px;
-  
- ;
 }
