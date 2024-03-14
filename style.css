@@ -102,6 +102,11 @@ body {
   padding: 10px 5%;
 }
 
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
 .products .card {
   width: 310px;
   background: #f5f5f5;
@@ -136,12 +141,12 @@ body {
 }
 
 .products .card .box .price {
-  color:#d9b227;
+  color: #d9b227;
   font-size: 20px;
   font-weight: bold;
 }
 
-.products .card .box .btn{
+.products .card .box .btn {
   font-size: 13px;
   color: #d9b227;
   padding: 10px 18px;
@@ -150,7 +155,7 @@ body {
   border-radius: 20px;
 }
 
-.products .card .box .btn:hover{
+.products .card .box .btn:hover {
   cursor: pointer;
   background-color: #d9b227;
   color: white;
