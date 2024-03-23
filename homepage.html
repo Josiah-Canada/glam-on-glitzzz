@@ -25,11 +25,11 @@
       </div>
     </nav>
 
-    <!-- <section class="content">
+    <section class="content">
       <h1>New arrivals</h1>
       <p>Get the latest new Glam!</p>
       <button>Shop now</button>
-    </section> -->
+    </section>
 
     <h1 class="pheading">Our latest products</h1>
 
@@ -109,6 +109,8 @@
 
       </div>
     </section>
+
+
     
 
 
@@ -141,5 +143,19 @@
     <div class="founder">
       <h1>The founder:</h1>
       <img src="images/miss-moore.jpg" alt="Johneka" class="middle">
+
+      <footer>
+        <p>copyrights at <a href="">Glam on glitz</a></p>
+      </footer>
+
+      <!-- jquery -->
+
+      <script>
+        $(".menu-btn").click(function() {
+          $(".navbar .menu").toggleClass("active");
+          $(".menu-btn i").toggleClass("active");
+        });
+      </script>
+
   </body>
 </html>
