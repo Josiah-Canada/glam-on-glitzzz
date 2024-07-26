@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script>
+    $(function(){
+        $('a').each(function(){
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+              $("../index.html").removeClass('active'); $("../index.html").parents('li').removeClass('active');
+            } 
+              
+            
+        });
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Womens</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><h1>Glam on Glitz</h1></div>
+        <ul class="menu">
+          <li><a href="../index.html" class="active">Home</a></li>
+          <li><a href="account.html">Account</a></li>
+          <li><a href="arrivals.html">New arrivals</a></li>
+          <li><a href="kids.html">Kids</a></li>
+          <li><a href="womens.html">Womens</a></li>
+          <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+  
+        <div class="menu-btn">
+          <i class="fa fa-bars"></i>
+        </div>
+
+        
+      </nav>
+
+      <div class="paragraph">
+        <h1>About:</h1>
+        <p class="next-to">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, adipisci!
+          Aperiam quisquam at minus nihil possimus recusandae labore doloribus
+          libero. Repudiandae facilis corrupti assumenda molestiae quae, pariatur
+          magni libero perferendis.
+        </p>
+      </div>
+
+      <section class="sec">
+        <div class="products">
+  
+          <!--card start-->
+          <div class="card">
+            <div class="img"><img src="../images/pretty-bracelet.jpg" alt=""></div>
+            <div class="desc">Womens</div>
+            <div class="title">Pretty bracelet</div>
+            <div class="box"><div class="price">$50</div>
+            <button class="btn">Buy now</button>
+          </div>
+          </div>
+          <!--card start-->
+  
+          <!--card start-->
+          <div class="card">
+            <div class="img"><img src="../images/nice-ring.jpg" alt=""></div>
+            <div class="desc">Womens</div>
+            <div class="title">ring</div>
+            <div class="box"><div class="price">$90</div>
+            <button class="btn">Buy now</button>
+          </div>
+          </div>
+          <!--card start-->
+  
+          <!--card start-->
+          <div class="card">
+            <div class="img"><img src="../images/brooch.jpg" alt=""></div>
+            <div class="desc">Womens</div>
+            <div class="title">Pretty brooch</div>
+            <div class="box"><div class="price">$550</div>
+            <button class="btn">Buy now</button>
+          </div>
+          </div>
+          <!--card start-->
+  
+          <!--card start-->
+          <div class="card">
+            <div class="img"><img src="../images/crystal.jpg" alt=""></div>
+            <div class="desc">Womens</div>
+            <div class="title">crystal</div>
+            <div class="box"><div class="price">$890</div>
+            <button class="btn">Buy now</button>
+          </div>
+          </div>
+          <!--card start-->
+  
+          <!--card start-->
+          <div class="card">
+            <div class="img"><img src="../images/butterfly.jpg" alt=""></div>
+            <div class="desc">Womens</div>
+            <div class="title">butterfly charm</div>
+            <div class="box"><div class="price">$75</div>
+            <button class="btn">Buy now</button>
+          </div>
+          </div>
+          <!--card start-->
+  
+          <!--card start-->
+          <div class="card">
+            <div class="img"><img src="../images/tea-cup.jpg" alt=""></div>
+            <div class="desc">Womens</div>
+            <div class="title">tea cup</div>
+            <div class="box"><div class="price">$0</div>
+            <button class="btn">Buy now</button>
+          </div>
+          </div>
+          <!--card start-->
+  
+     
+  
+            
+          
+  
+        </div>
+      </section>
+  
+      
+</body>
+</html>

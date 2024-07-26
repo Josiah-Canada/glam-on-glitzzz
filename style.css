@@ -27,9 +27,11 @@ body {
   box-shadow: 0 0 14px rgba(0, 0, 0, 0.9);
 }
 
+ /* logo */
 .navbar .logo h1 {
   color: #424144;
   border-bottom: 4px solid #d9b227;
+  cursor: default
 }
 
 .navbar .menu li {
@@ -96,6 +98,14 @@ body {
   text-align: center;
   margin: 50px 0;
   color: #d9b227;
+}
+
+/* account heading */
+.aheading {
+  text-align: left;
+  margin: 50px 0;
+  margin-left: 50px;
+  color: #424144;
 }
 
 .sec {
@@ -262,3 +272,5 @@ footer p a {
   width: 200px;
   height: 200px;
 }
+
+
