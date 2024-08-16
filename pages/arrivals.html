@@ -34,8 +34,20 @@
         </ul>
   
         <div class="menu-btn">
-          <i class="fa fa-bars"></i>
-        </div>
+          <i class="fa fa-bars">
+         <div class="main menu">
+          <div class="menu">
+            <h2 id="logo">Glam On Glitz</h2>
+            <a href="../index.html">Home</a>
+            <a href="account.html">Account</a>
+            <a href="arrivals.html">New arrivals</a>
+            <a href="kids.html">Kids</a>
+            <a href="womens.html">Womans</a>
+          </div>
+          </div>
+          </i>
+         
+          </div>
 
         
       </nav>
@@ -126,7 +138,13 @@
   
         </div>
       </section>
-  
+      <script>
+        $(".menu-btn").click(function() {
+          $(".navbar .menu").toggleClass("active");
+          $(".menu-btn i").toggleClass("active");
+        })
+        
+      </script>
       
 </body>
 </html>

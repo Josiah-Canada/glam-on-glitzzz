@@ -20,10 +20,24 @@
         <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
       </ul>
 
+      <!-- sidebar -->
       <div class="menu-btn">
-        <i class="fa fa-bars"></i>
+      <i class="fa fa-bars">
+     <div class="main menu">
+      <div class="menu">
+        <h2 id="logo">Glam On Glitz</h2>
+        <a href="#">Home</a>
+        <a href="pages/account.html">Account</a>
+        <a href="pages/arrivals.html">New arrivals</a>
+        <a href="pages/kids.html">Kids</a>
+        <a href="pages/womens.html">Womans</a>
+      </div>
+      </div>
+      </i>
+     
       </div>
     </nav>
+    
 
     <section class="content">
       <h1>New arrivals</h1>
@@ -148,7 +162,8 @@
         $(".menu-btn").click(function() {
           $(".navbar .menu").toggleClass("active");
           $(".menu-btn i").toggleClass("active");
-        });
+        })
+        
       </script>
       <script src="index.js"></script>
   </body>
